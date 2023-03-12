@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-stone-900 h-screen w-screen text-white flex flex-col gap-y-36 items-center justify-center" wrapper>
+        <!-- top div -->
+        <div class="bg-white bg-opacity-10 rounded-3xl text-6xl text-center p-2" top_div>Current Player-<div curr_player></div></div>
+
+        <!-- //boxes div -->
+        <div class="grid grid-cols-3 h-60 w-60 text-8xl text-center" boxes>
+            <div class="border-b-4 border-r-4" box box1>A</div>
+            <div class="border-b-4 " box box2>A</div>
+            <div class="border-l-4 border-b-4" box box3>A</div>
+            <div class="border-b-4 border-r-4" box box4>A</div>
+            <div class="border-b-4" box box5>A</div>
+            <div class="border-l-4 border-b-4" box box6>A</div>
+            <div class="border-r-4" box box7>A</div>
+            <div class="" box box8>A</div>
+            <div class="border-l-4" box box9>A</div>
+        </div>
+
+        <!-- new game button -->
+        <button class="bg-white bg-opacity-10 rounded-3xl text-6xl text-center p-4" game_btn>New Game</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
